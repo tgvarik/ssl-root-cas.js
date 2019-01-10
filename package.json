@@ -29,6 +29,6 @@
   "homepage": "https://git.coolaj86.com/coolaj86/ssl-root-cas.js",
   "dependencies": {
     "bluebird": "^3.4.1",
-    "request": "^2.47.0"
+    "request": "^2.88.0"
   }
 }

@@ -6,7 +6,7 @@ testDefault();
 function testDefault() {
   require('https').globalAgent.options.ca = null;
   var rootCas = require('./latest');
-  var request = require('request');
+  var request = require('@coolaj86/urequest');
 
   require('https').globalAgent.options.ca = rootCas;
   request.get('https://coolaj86.com/404.html', function (err, resp, body) {
@@ -21,7 +21,7 @@ function testDefault() {
 function testInject() {
   require('https').globalAgent.options.ca = null;
   var rootCas = require('./latest').inject();
-  var request = require('request');
+  var request = require('@coolaj86/urequest');
 
   require('https').globalAgent.options.ca = rootCas;
   request.get('https://coolaj86.com/404.html', function (err, resp, body) {
@@ -36,7 +36,7 @@ function testInject() {
 function testCreate() {
   require('https').globalAgent.options.ca = null;
   var rootCas = require('./latest').create();
-  var request = require('request');
+  var request = require('@coolaj86/urequest');
 
   require('https').globalAgent.options.ca = rootCas;
   request.get('https://coolaj86.com/404.html', function (err, resp, body) {

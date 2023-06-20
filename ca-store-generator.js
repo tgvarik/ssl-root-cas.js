@@ -5,7 +5,7 @@
 var fs = require('fs')
   , path = require('path')
   , request = require('@coolaj86/urequest')
-  , CERTDB_URL = 'https://mxr.mozilla.org/nss/source/lib/ckfw/builtins/certdata.txt?raw=1'
+  , CERTDB_URL = 'https://hg.mozilla.org/projects/nss/raw-file/tip/lib/ckfw/builtins/certdata.txt'
   , outputFile
   , outputPemsDir
   ;

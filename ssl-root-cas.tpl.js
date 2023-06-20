@@ -1,7 +1,7 @@
 /**
  * Mozilla's root CA store
  *
- * generated from https://mxr.mozilla.org/nss/source/lib/ckfw/builtins/certdata.txt?raw=1
+ * generated from https://hg.mozilla.org/projects/nss/raw-file/tip/lib/ckfw/builtins/certdata.txt
  */
 'use strict';
 

@@ -89,7 +89,7 @@ The script downloads the same root CAs that are included with
 [Google Chrome](http://www.chromium.org/Home/chromium-security/root-ca-policy),
 [`libnss`](https://developer.mozilla.org/en-US/docs/Mozilla/Projects/NSS#CA_certificates_pre-loaded_into_NSS),
 and [OpenSSL](https://www.openssl.org/support/faq.html#USER16)\*:
-<https://mxr.mozilla.org/nss/source/lib/ckfw/builtins/certdata.txt?raw=1>
+<https://hg.mozilla.org/projects/nss/raw-file/tip/lib/ckfw/builtins/certdata.txt>
 
 \* OpenSSL doesn't actually bundle these CAs, but they suggest using them
 
